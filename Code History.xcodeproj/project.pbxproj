@@ -13,6 +13,7 @@
 		9B7C46F8294251FD0022EC44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C46F7294251FD0022EC44 /* Preview Assets.xcassets */; };
 		9BB533BB29649CE100FA3C17 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BA29649CE100FA3C17 /* Question.swift */; };
 		9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */; };
+		9BB533C029661DEB00FA3C17 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BF29661DEB00FA3C17 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9B7C46F7294251FD0022EC44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BB533BA29649CE100FA3C17 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		9BB533BF29661DEB00FA3C17 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		9B7C46EF294251FB0022EC44 /* Code History */ = {
 			isa = PBXGroup;
 			children = (
+				9BB533BE29661DD200FA3C17 /* Models */,
 				9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */,
 				9B7C46F0294251FB0022EC44 /* Code_HistoryApp.swift */,
 				9B7C46F2294251FB0022EC44 /* ContentView.swift */,
@@ -71,6 +74,14 @@
 				9B7C46F7294251FD0022EC44 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BB533BE29661DD200FA3C17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BB533BF29661DEB00FA3C17 /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB533BB29649CE100FA3C17 /* Question.swift in Sources */,
+				9BB533C029661DEB00FA3C17 /* Game.swift in Sources */,
 				9B7C46F3294251FB0022EC44 /* ContentView.swift in Sources */,
 				9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */,
 				9B7C46F1294251FB0022EC44 /* Code_HistoryApp.swift in Sources */,
