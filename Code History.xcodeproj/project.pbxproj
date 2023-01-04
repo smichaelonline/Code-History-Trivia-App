@@ -14,6 +14,7 @@
 		9BB533BB29649CE100FA3C17 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BA29649CE100FA3C17 /* Question.swift */; };
 		9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */; };
 		9BB533C029661DEB00FA3C17 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BF29661DEB00FA3C17 /* Game.swift */; };
+		9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C2296628DA00FA3C17 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9BB533BA29649CE100FA3C17 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		9BB533BF29661DEB00FA3C17 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9BB533C2296628DA00FA3C17 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				9B7C46F2294251FB0022EC44 /* ContentView.swift */,
 				9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */,
+				9BB533C2296628DA00FA3C17 /* WelcomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB533BB29649CE100FA3C17 /* Question.swift in Sources */,
+				9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */,
 				9BB533C029661DEB00FA3C17 /* Game.swift in Sources */,
 				9B7C46F3294251FB0022EC44 /* ContentView.swift in Sources */,
 				9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */,
