@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B7C46F1294251FB0022EC44 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C46F0294251FB0022EC44 /* Code_HistoryApp.swift */; };
-		9B7C46F3294251FB0022EC44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C46F2294251FB0022EC44 /* ContentView.swift */; };
+		9B7C46F3294251FB0022EC44 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C46F2294251FB0022EC44 /* GameView.swift */; };
 		9B7C46F5294251FD0022EC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C46F4294251FD0022EC44 /* Assets.xcassets */; };
 		9B7C46F8294251FD0022EC44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C46F7294251FD0022EC44 /* Preview Assets.xcassets */; };
 		9BB533BB29649CE100FA3C17 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BA29649CE100FA3C17 /* Question.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		9B7C46ED294251FB0022EC44 /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7C46F0294251FB0022EC44 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
-		9B7C46F2294251FB0022EC44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B7C46F2294251FB0022EC44 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		9B7C46F4294251FD0022EC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7C46F7294251FD0022EC44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BB533BA29649CE100FA3C17 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		9BB533C129661E3000FA3C17 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9B7C46F2294251FB0022EC44 /* ContentView.swift */,
+				9B7C46F2294251FB0022EC44 /* GameView.swift */,
 				9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */,
 				9BB533C2296628DA00FA3C17 /* WelcomeView.swift */,
 			);
@@ -168,7 +168,7 @@
 				9BB533BB29649CE100FA3C17 /* Question.swift in Sources */,
 				9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */,
 				9BB533C029661DEB00FA3C17 /* Game.swift in Sources */,
-				9B7C46F3294251FB0022EC44 /* ContentView.swift in Sources */,
+				9B7C46F3294251FB0022EC44 /* GameView.swift in Sources */,
 				9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */,
 				9B7C46F1294251FB0022EC44 /* Code_HistoryApp.swift in Sources */,
 			);
