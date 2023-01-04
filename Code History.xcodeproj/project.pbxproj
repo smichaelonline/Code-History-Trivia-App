@@ -15,6 +15,7 @@
 		9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */; };
 		9BB533C029661DEB00FA3C17 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533BF29661DEB00FA3C17 /* Game.swift */; };
 		9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C2296628DA00FA3C17 /* WelcomeView.swift */; };
+		9BB533C529662C1A00FA3C17 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C429662C1A00FA3C17 /* GameColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		9BB533BF29661DEB00FA3C17 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		9BB533C2296628DA00FA3C17 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9BB533C429662C1A00FA3C17 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				9B7C46F2294251FB0022EC44 /* GameView.swift */,
 				9BB533BC2964A18B00FA3C17 /* ChoiceTextView.swift */,
 				9BB533C2296628DA00FA3C17 /* WelcomeView.swift */,
+				9BB533C429662C1A00FA3C17 /* GameColor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */,
 				9BB533C029661DEB00FA3C17 /* Game.swift in Sources */,
 				9B7C46F3294251FB0022EC44 /* GameView.swift in Sources */,
+				9BB533C529662C1A00FA3C17 /* GameColor.swift in Sources */,
 				9BB533BD2964A18B00FA3C17 /* ChoiceTextView.swift in Sources */,
 				9B7C46F1294251FB0022EC44 /* Code_HistoryApp.swift in Sources */,
 			);
