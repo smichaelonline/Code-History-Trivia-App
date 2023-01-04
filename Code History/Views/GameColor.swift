@@ -14,4 +14,4 @@ struct GameColor {
     static let correctGuess = Color.green
     static let incorrectGuess = Color.red
 }
-}
+
