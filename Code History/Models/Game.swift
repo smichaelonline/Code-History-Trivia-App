@@ -37,7 +37,7 @@ struct Game {
         }
     }
     
-    var numberOfQuestion: Int {
+    var numberOfQuestions: Int {
         questions.count
     }
     

@@ -18,6 +18,7 @@
 		9BB533C529662C1A00FA3C17 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C429662C1A00FA3C17 /* GameColor.swift */; };
 		9BB533C729662D0400FA3C17 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C629662D0400FA3C17 /* BottomTextView.swift */; };
 		9BB533CA2966379000FA3C17 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C92966379000FA3C17 /* GameViewModel.swift */; };
+		9BB533CC296639FC00FA3C17 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533CB296639FC00FA3C17 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9BB533C429662C1A00FA3C17 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		9BB533C629662D0400FA3C17 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 		9BB533C92966379000FA3C17 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		9BB533CB296639FC00FA3C17 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +67,11 @@
 		9B7C46EF294251FB0022EC44 /* Code History */ = {
 			isa = PBXGroup;
 			children = (
-				9BB533C82966377400FA3C17 /* ViewModels */,
-				9BB533C129661E3000FA3C17 /* Views */,
-				9BB533BE29661DD200FA3C17 /* Models */,
-				9B7C46F0294251FB0022EC44 /* Code_HistoryApp.swift */,
 				9B7C46F4294251FD0022EC44 /* Assets.xcassets */,
+				9B7C46F0294251FB0022EC44 /* Code_HistoryApp.swift */,
+				9BB533BE29661DD200FA3C17 /* Models */,
+				9BB533C129661E3000FA3C17 /* Views */,
+				9BB533C82966377400FA3C17 /* ViewModels */,
 				9B7C46F6294251FD0022EC44 /* Preview Content */,
 			);
 			path = "Code History";
@@ -100,6 +102,7 @@
 				9BB533C2296628DA00FA3C17 /* WelcomeView.swift */,
 				9BB533C429662C1A00FA3C17 /* GameColor.swift */,
 				9BB533C629662D0400FA3C17 /* BottomTextView.swift */,
+				9BB533CB296639FC00FA3C17 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB533CC296639FC00FA3C17 /* QuestionView.swift in Sources */,
 				9BB533CA2966379000FA3C17 /* GameViewModel.swift in Sources */,
 				9BB533BB29649CE100FA3C17 /* Question.swift in Sources */,
 				9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */,
