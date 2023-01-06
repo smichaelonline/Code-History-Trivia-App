@@ -26,7 +26,7 @@ struct GameView: View {
         }
         //to update to iOS 16 guidelines
         .background(
-            NavigationLink(destination: Text("Game Over!"),
+            NavigationLink(destination: ScoreView(viewModel: ScoreViewModel(correctGuesses: viewModel.correctGuesses, incorrectGuesses: viewModel.incorrectGuesses)),
                            isActive: .constant(viewModel.gameIsOver),
                            label: { EmptyView() })
         )

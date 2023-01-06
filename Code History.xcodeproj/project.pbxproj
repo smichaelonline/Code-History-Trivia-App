@@ -20,6 +20,7 @@
 		9BB533CA2966379000FA3C17 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533C92966379000FA3C17 /* GameViewModel.swift */; };
 		9BB533CC296639FC00FA3C17 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533CB296639FC00FA3C17 /* QuestionView.swift */; };
 		9BB533CE2968B82C00FA3C17 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533CD2968B82C00FA3C17 /* ScoreView.swift */; };
+		9BB533D02968BC9000FA3C17 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB533CF2968BC9000FA3C17 /* ScoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9BB533C92966379000FA3C17 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		9BB533CB296639FC00FA3C17 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		9BB533CD2968B82C00FA3C17 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		9BB533CF2968BC9000FA3C17 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				9BB533C92966379000FA3C17 /* GameViewModel.swift */,
+				9BB533CF2968BC9000FA3C17 /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				9BB533CC296639FC00FA3C17 /* QuestionView.swift in Sources */,
 				9BB533CA2966379000FA3C17 /* GameViewModel.swift in Sources */,
 				9BB533BB29649CE100FA3C17 /* Question.swift in Sources */,
+				9BB533D02968BC9000FA3C17 /* ScoreViewModel.swift in Sources */,
 				9BB533C3296628DA00FA3C17 /* WelcomeView.swift in Sources */,
 				9BB533C029661DEB00FA3C17 /* Game.swift in Sources */,
 				9B7C46F3294251FB0022EC44 /* GameView.swift in Sources */,
