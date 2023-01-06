@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct QuestionView: View {
+    @EnvironmentObject var viewModel: GameViewModel
+    
     let question: Question
     
     var body: some View {
@@ -22,10 +24,15 @@ struct QuestionView: View {
                 ForEach(0..<question.possibleAnswers.count) { answerIndex in
                     Button(action: {
                         print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
+                        viewModel.makeGuess(atIndex: answerIndex)
                     }) {
                         ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                     }
-                    
+                }
+            }
+            if viewModel.guessWasMade {
+                Button(action:{viewModel.displayNextScreen()}) {
+                    BottomTextView(str: "Next")
                 }
             }
         }
